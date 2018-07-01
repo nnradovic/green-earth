@@ -1,0 +1,5 @@
+@mixin shadow($disShadow, $height) {
+    -webkit-box-shadow: 0px $height 0px 0px $disShadow;
+    -moz-box-shadow: 0px $height 0px 0px $disShadow;
+    box-shadow: 0px $height 0px 0px $disShadow;
+}
